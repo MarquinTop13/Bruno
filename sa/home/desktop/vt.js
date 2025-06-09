@@ -138,6 +138,7 @@ export function PecasdePC() {
 export function PCpronto() {
     return {
         computer1: {
+            nome: "PC Avançado",
             processador: "AMD Ryzen 9 7950X",
             memoriaRam: "DDR5 6000MHz",
             placaMae: "TUF Gaming X670E-Plus AMD X670", // modelo compatível
@@ -149,6 +150,7 @@ export function PCpronto() {
             preco: 12.590
         },
         computer2: {
+            nome: "PC Intermediário",
             processador: 'Intel Core i5-12400F',
             memoriaRam: 'DDR4 3200MHz',
             placaMae: 'Gigabyte Z790', // modelo compatível
@@ -160,6 +162,7 @@ export function PCpronto() {
             preco: 5.429
         },
         computer3: {
+            nome: "PC Básico",
             processador: 'AMD Ryzen 5 5600G',
             memoriaRam: 'DDR4 2400MHz',
             placaMae: 'AMD X570', // modelo compatível

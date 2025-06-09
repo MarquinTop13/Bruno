@@ -6,14 +6,14 @@ export function calculardescontofinal(V) {
     let SN = ler();
 
     if (SN.toLowerCase() === 'sim') {
-        if (V >= 4000) {
-            let desconto = (V * 10) / 100;
+        if (V >= 3000) {
+            let desconto = (V * 40) / 100;
             return V - desconto;
-        } else if (V >= 3000) {
-            let desconto = (V * 7.5) / 100;
+        } else if (V >= 1600 && V < 3000) {
+            let desconto = (V * 35) / 100;
             return V - desconto;
-        } else if (V >= 2500) {
-            let desconto = (V * 5) / 100;
+        } else if (V <= 1500) {
+            let desconto = (V * 20) / 100;
             return V - desconto;
         }
     }

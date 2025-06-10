@@ -1,12 +1,14 @@
 export function explicacaopecas() {
-    console.log("1. A memória RAM (Random Access Memory), ou memória de acesso aleatório, é o espaço de armazenamento temporário no computador que o processador utiliza para guardar dados e instruções.");
-    console.log("2. A placa-mãe, ou -motherboard-, é o componente central de um computador, responsável por conectar e permitir a comunicação entre todos os outros componentes.");
-    console.log("3. Um disco rígido (HD), também conhecido como -Hard Disk Drive- (HDD), é um dispositivo de armazenamento de dados.");
-    console.log("4. Um processador, também conhecido como CPU (Central Processing Unit), é o cérebro de um computador ou dispositivo eletrônico. Ele é responsável por executar as instruções de software e realizar cálculos.");
-    console.log("5. A fonte de alimentação de um PC (PSU Power Supply Unit) é um componente crucial que converte a energia elétrica da tomada em corrente contínua de baixa tensão.");
-    console.log("6. Um cooler, em eletrônica, é um sistema de arrefecimento que impede o superaquecimento de componentes eletrônicos.");
-    console.log("7. Uma placa de vídeo, também chamada de GPU (Graphics Processing Unit), é um componente crucial de um computador que se encarrega de gerar e renderizar as imagens que você vê na tela.");
-    console.log("8. Um gabinete de computador (também conhecido como caixa do computador) é essencialmente o recipiente físico que abriga todos os componentes internos do seu computador.");
+    console.log("Resumo dos Componentes de um Computador:");
+    console.log("1. **Memória RAM:** Armazenamento temporário para dados e instruções do processador.");
+    console.log("2. **Placa-mãe:** Componente central que conecta todos os outros.");
+    console.log("3. **Disco Rígido (HD/HDD):** Armazenamento de dados.");
+    console.log("4. **Processador (CPU):** 'Cérebro' do computador, executa instruções.");
+    console.log("5. **Fonte de Alimentação (PSU):** Converte energia para os componentes.");
+    console.log("6. **Cooler:** Sistema de arrefecimento.");
+    console.log("7. **Placa de Vídeo (GPU):** Gera e renderiza imagens.");
+    console.log("8. **Gabinete:** Recipiente físico dos componentes.");
+
 }
 
 export function PecasdePC() {
@@ -147,7 +149,7 @@ export function PCpronto() {
             armazenamento: "SSD Samsung NVMe 1TB 970 EVO",
             Cooler: "Cooler Master Hyper 212",
             gabinete: "NZXT H510",
-            preco: 12.590
+            preco: 12595
         },
         computer2: {
             nome: "PC Intermediário",
@@ -159,7 +161,7 @@ export function PCpronto() {
             armazenamento: 'SSD Samsung NVMe 1TB 970 EVO',
             Cooler: 'Cooler Box Intel',
             gabinete: 'Cougar MX330',
-            preco: 5.429
+            preco: 5429
         },
         computer3: {
             nome: "PC Básico",
@@ -171,7 +173,7 @@ export function PCpronto() {
             armazenamento: 'SSD Kingston A2000 500GB',
             Cooler: 'Cooler Box AMD',
             gabinete: 'Fractal Design Torrent RGB',
-            preco: 2.999
+            preco: 2999
         }
     };
 }

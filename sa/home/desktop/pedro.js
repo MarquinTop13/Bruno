@@ -24,7 +24,7 @@ export function tablets() {
         ],
         medio: [
             {
-                nome: 'Galaxy S10',
+                nome: 'Galaxy Tab S10',
                 preco: 3173.00,
                 info: '10.9", 128GB, 8GB RAM, Câmeras 13MP/12MP, IP68'
             },
